@@ -8,4 +8,5 @@ If the program guesses it in less than 3 tries, then it wins. If he cannot guess
 
 
 Source code without comments, used functions, with loops so it is a play-over-over game, until you want it. Used 2 modules [random, time] 
+
 [Viktor Synek Twitter](https://www.twitter.com/vAnonyms)
