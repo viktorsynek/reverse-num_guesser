@@ -54,7 +54,7 @@ def play():
                 time.sleep(1)
 
             else:
-                print("How about you giving me a number between 0-15? Wouldn't it be beautiful?")
+                print("How about you giving me a number between 0-15? Wouldn't that be beautiful?")
                 user = int(input("The number: "))
 
         time.sleep(1)
@@ -63,7 +63,7 @@ def play():
 
     except ValueError:
         print("That's not a number!")
-        play()
+        play() 
         
 
 play()
