@@ -9,10 +9,10 @@ def play_another():
     print("Do you want to play another? (Y/N)")
     another = input(": ").lower()
     
-    while another != "n" and another != 'y':
+    while another != "n" and another != "y":
         another = input(": ").lower()
 
-    if another == 'y':
+    if another == "y":
         play() 
 
 def play():
