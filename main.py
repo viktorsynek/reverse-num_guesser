@@ -74,7 +74,7 @@ def play():
         print("The bot's life hit 0. You won the game. Congrats!")
         play_another()
 
-    # HANDLE NON VALUE INPUTS
+    # HANDLE NOT NUMERIC INPUTS
     except ValueError:
         print("That's not a number!")
         play() 
